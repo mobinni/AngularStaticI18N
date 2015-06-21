@@ -1,3 +1,4 @@
+app/.htaccess
 node_modules
 dist
 .tmp
