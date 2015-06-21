@@ -5,8 +5,6 @@ version 0.11.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt build` for building and `grunt serve` for preview.
+Read more about what this repo is for at: https://mobinni.io/2015/06/21/quickfire-compiling-angularjs-with-static-translations/
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
