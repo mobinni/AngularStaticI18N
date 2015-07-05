@@ -402,7 +402,7 @@ module.exports = function(grunt) {
                 }
             },
             options: {
-                selector: '[translate]',
+                selector: ['translate'],
                 locales: ['en', 'nl'],
                 locale: 'en',
                 localesPath: 'locales'
