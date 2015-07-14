@@ -76,7 +76,7 @@ module.exports = function(grunt) {
                     open: true,
                     middleware: function(connect) {
                         return [
-                            connect.static('.tmp'),
+                            connect.static('dist'),
                             connect().use(
                                 '/bower_components',
                                 connect.static('./bower_components')
@@ -402,7 +402,7 @@ module.exports = function(grunt) {
                 }
             },
             options: {
-                selector: ['translate'],
+                selector: '[translate]',
                 locales: ['en', 'nl'],
                 locale: 'en',
                 localesPath: 'locales'
